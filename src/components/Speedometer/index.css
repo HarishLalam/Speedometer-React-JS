@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+}
+.speed-bg-container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.speed-title {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+.speed-img {
+  height: 50vh;
+}
+.speed-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.present-speed {
+  color: white;
+  font-family: 'Roboto';
+  margin-bottom: 40px;
+}
+.speed-limits {
+  margin-bottom: 60px;
+}
+.speed-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.accelerate-button {
+  background-color: blue;
+  border: 0px;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.break-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-left: 15px;
+  cursor: pointer;
+}
